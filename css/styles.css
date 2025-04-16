@@ -1,3 +1,4 @@
+/* common */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -7,12 +8,43 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6,p{
+margin:0;
 }
 
 a {
     text-decoration: none;
 }
 /* header*/
+.container {
+        width: 1158px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+.page-header{
+border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+display:flex;
+align-items: center;
+}
+.header-nav{
+display:flex;
+align-items: center;
+}
+.nav-list{
+display: flex;
+align-items: center;
+}
+.contacts-list{
+display:flex;
+align-items: center;
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -26,7 +58,17 @@ a {
 .header-logo .logo-part {
     color: #2e2f42;
 }
+.header-logo{
+padding:24px 0;
+margin:76px;
+}
+.nav-list{
+gap: 40px;
+
+}
 .nav-link {
+    display: block;
+    padding:24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -36,9 +78,14 @@ a {
 
 .contacts {
     font-style: normal;
+    margin-left:auto;
 }
-
+.contacts-list{
+gap: 40px;
+}
 .contacts-link {
+    display:block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -57,30 +104,38 @@ a {
 .solution {
 background-color:#2e2f42;
 }
+
 .logo-solution {
-font-weight: 700;
-    font-size: 56px;
+    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
+    font-size: 56px;
+    padding-top:188px;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .button-solution:hover,
 .button-solution:focus{
 background-color: #404BBF;
-
 }
 .button-solution{
-background-color: #4D5AE5;
-font-family: "Roboto", sans-serif;
+    display: block;
+    margin: 48px auto 0;
+    min-width: 169px;
+    height: 56px;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    color: #fff;
     cursor: pointer;
-    color:#ffffff;
-}
 .button-text {
 font-weight: 500;
     font-size: 16px;
@@ -94,12 +149,17 @@ font-weight: 500;
 /*endsolution*/
 
 /*advantages*/
+.Advantages-list{ 
+}
 .logo-advantages {
+display:flex;
+flex-direction: row;
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #404BBF;
 }
  .about {
     font-weight: 400;
