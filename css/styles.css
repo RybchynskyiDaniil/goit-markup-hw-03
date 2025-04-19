@@ -191,8 +191,11 @@ position: absolute;
 }
 .Advantages-list{ 
 display:flex;
-gap:28px;
+gap:24px;
 padding:128px 0 ;
+}
+.features-nav-item{
+width: calc((100% - 72px) / 4);
 }
 .logo-advantages {
 display:flex;
