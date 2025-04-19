@@ -101,9 +101,6 @@ a {
     display: flex;
     gap: 40px;
 }
-
-.header-address-item {}
-
 .address-link {
     padding: 24px 0;
     font-weight: 400;
@@ -113,13 +110,10 @@ a {
     color: #434455;
     text-decoration: none;
 }
-
-
 /* hover-focus */
 a:focus {
     color: #404bbf;
 }
-
 a:hover {
     color: #404bbf;
 }
