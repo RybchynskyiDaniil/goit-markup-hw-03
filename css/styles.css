@@ -131,6 +131,7 @@ background-color:#2e2f42;
 }
 .position-items{
 padding-bottom: 188px;
+padding-top: 188px;
 }
 .logo-solution {
     font-weight: 700;
@@ -139,7 +140,6 @@ padding-bottom: 188px;
     text-align: center;
     color: #fff;
     font-size: 56px;
-    padding-top:188px;
     max-width: 496px;
     margin: 0 auto;
 }
