@@ -341,7 +341,14 @@ a {
     display: inline-block;
     margin-bottom: 16px;
 }
-
+.logo-part{
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
 .page-footer {
     padding: 100px 0;
     background-color: #2e2f42;
